@@ -1,0 +1,37 @@
+.logout-dialog.modal {
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    background: #FFF;
+    border-radius: 16px;
+    box-shadow: 0 2px 24px rgba(0, 0, 0, 0.10);
+    z-index: 1000;
+    padding: 24px;
+    border: 1px solid #E0E0E0;
+    color: #000;
+    min-width: 300px;
+    text-align: center;
+}
+
+.logout-dialog__title {
+    margin-bottom: 16px;
+}
+
+.logout-dialog__message {
+    margin-bottom: 24px;
+}
+
+.logout-dialog__submit {
+    width: 100%;
+    padding: 12px;
+    background: #11CAA3;
+    color: #000;
+    border: none;
+    border-radius: 8px;
+    font-weight: bold;
+    font-size: 16px;
+    cursor: pointer;
+    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.06);
+    transition: background 0.2s;
+}
